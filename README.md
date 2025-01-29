@@ -59,13 +59,13 @@ public boolean encuentraSumaEficiente(int[] array, int requiredSum) {
     if (array.length == 0) {
         return false;
     }
-    Set<Integer> seen = new HashSet<>();
+    Set<Integer> set = new HashSet<>();
     for (int num : array) {
         int complemento = requiredSum - num;
-        if (seen.contains(complemento)) {
+        if (set.contains(complemento)) {
             return true;
         }
-        seen.add(num);
+        set.add(num);
     }
     return false;
 }

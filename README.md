@@ -1,3 +1,10 @@
+# Herramientas Utilizadas
+Lenguaje de Programación: Java
+Versión de Java: 21
+Test: Junit 5
+Gestor de proyecto: Maven
+IDE: Visual Studio Code
+
 # Problema de Suma de Elementos en un Array
 
 ## Descripción
